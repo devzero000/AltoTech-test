@@ -1,0 +1,33 @@
+version: "3.8"
+
+services:
+  postgres:
+    env_file:
+      - .env
+
+  django:
+    build:
+      context: ./django
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./django:/opt/app
+    command: tail -f /dev/null
+    env_file:
+      - .env
+
+  celery-worker:
+    build:
+      context: ./django
+    volumes:
+      - ./django:/opt/app
+    env_file:
+      - .env
+
+  celery-beat:
+    build:
+      context: ./django
+    volumes:
+      - ./django:/opt/app
+    env_file:
+      - .env

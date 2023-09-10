@@ -1,0 +1,50 @@
+Application: Hotel Management
+Bot name is C9
+Created bot by: Nick
+
+Currently, the hotel information does not have a news update system.
+There are a total of 4 positions or groups:
+1. Admin
+2. Supervisor
+3. Maid Supervisor
+4. Guest
+
+We have an asset management system designed initially for hotels. Our main function is task management. Below are the basic features of a task:
+
+Tasks can originate from various sources.
+A task comprises the following fields:
+- Task number (unique field)
+- Created by (user)
+- Assigned to (user)
+- Room
+- Start time
+- Completion time
+- Type (Cleaning, Maid request, Technical request, Amenities request)
+- Status (Created, Assigned, In progress, Completed, Canceled)
+
+Each type of task has different rules as follows:
+○ Cleaning:
+- Can only be created by the Maid Supervisor
+- Has a specific status (Canceled by guest)
+○ Maid request:
+- Can only be created by the Maid Supervisor
+- Has a “description” field for free text
+○ Technical request:
+- Can be created by either guests or the supervisor
+- Has specific categories to indicate damage in the room (Electrical, Air conditioning, Plumbing, Internet)
+
+Amenities request:
+- Can only be created by the guest
+- Has specific fields (Type of amenity, Quantity)
+
+"If you want the system to automatically generate mock data, you can use the make init-data command."
+
+"If you want to reset all the data, you can use the reset-db command.
+However, if you want to reset and also generate mock data, use the reset-init-db command."
+
+"News Update: This management system doesn't yet have a feature for news updates. This is merely a simulation of creating a Hotel Management system."
+
+User is Member
+user is member
+Order is Document
+order is document

@@ -1,0 +1,5 @@
+celerybeat.pid
+celerybeat-schedule
+__pycache__
+staticfiles
+media

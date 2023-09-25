@@ -1,0 +1,27 @@
+2023-09-25 17:31:50 | insert | User | {'id': 1, 'password': 'pbkdf2_sha256$260000$q9gWAdOLfIyfoTSpmOsQoQ$vylkQVuY21KBH6Hr5D9K34KBkSlZkVdWbFNn5Yq2gAE=', 'last_login': None, 'is_superuser': True, 'username': 'admin', 'first_name': 'admin', 'last_name': 'admin', 'email': 'admin@example.com', 'is_staff': True, 'is_active': True, 'date_joined': datetime.datetime(2023, 9, 25, 10, 31, 50, 745135, tzinfo=<UTC>)}
+2023-09-25 17:31:50 | insert | User | {'id': 2, 'password': 'pbkdf2_sha256$260000$52J49k9YlI0xkU304ySBpW$JKSf2aA9DihakYGoefPqC24HjGc7FAfDK2gg1kEkf6s=', 'last_login': None, 'is_superuser': False, 'username': 'supervisor', 'first_name': 'supervisor', 'last_name': 'supervisor', 'email': 'supervisor@example.com', 'is_staff': False, 'is_active': True, 'date_joined': datetime.datetime(2023, 9, 25, 10, 31, 50, 987703, tzinfo=<UTC>)}
+2023-09-25 17:31:50 | update | User | {'id': 2, 'password': 'pbkdf2_sha256$260000$52J49k9YlI0xkU304ySBpW$JKSf2aA9DihakYGoefPqC24HjGc7FAfDK2gg1kEkf6s=', 'last_login': None, 'is_superuser': False, 'username': 'supervisor', 'first_name': 'supervisor', 'last_name': 'supervisor', 'email': 'supervisor@example.com', 'is_staff': False, 'is_active': True, 'date_joined': datetime.datetime(2023, 9, 25, 10, 31, 50, 987703, tzinfo=<UTC>)}
+2023-09-25 17:31:50 | insert | User | {'id': 3, 'password': 'pbkdf2_sha256$260000$mxcjudNpWyVYo73kiQU5rI$RY1WkZWrj8vZi9nIwYHPyKOUyxRm3ZyRPBt1ic3/ZYE=', 'last_login': None, 'is_superuser': False, 'username': 'maid_supervisor', 'first_name': 'maid_supervisor', 'last_name': 'maid_supervisor', 'email': 'maid_supervisor@example.com', 'is_staff': False, 'is_active': True, 'date_joined': datetime.datetime(2023, 9, 25, 10, 31, 50, 996612, tzinfo=<UTC>)}
+2023-09-25 17:31:51 | update | User | {'id': 3, 'password': 'pbkdf2_sha256$260000$mxcjudNpWyVYo73kiQU5rI$RY1WkZWrj8vZi9nIwYHPyKOUyxRm3ZyRPBt1ic3/ZYE=', 'last_login': None, 'is_superuser': False, 'username': 'maid_supervisor', 'first_name': 'maid_supervisor', 'last_name': 'maid_supervisor', 'email': 'maid_supervisor@example.com', 'is_staff': False, 'is_active': True, 'date_joined': datetime.datetime(2023, 9, 25, 10, 31, 50, 996612, tzinfo=<UTC>)}
+2023-09-25 17:31:51 | insert | User | {'id': 4, 'password': 'pbkdf2_sha256$260000$SwBCp27BlzPOFSmkOqS5XW$kk6drBTtQf9qELIJzufIKvUZ2U2MTwRHGYLtkLKb6ms=', 'last_login': None, 'is_superuser': False, 'username': 'guest', 'first_name': 'guest', 'last_name': 'guest', 'email': 'guest@example.com', 'is_staff': False, 'is_active': True, 'date_joined': datetime.datetime(2023, 9, 25, 10, 31, 51, 2077, tzinfo=<UTC>)}
+2023-09-25 17:31:51 | update | User | {'id': 4, 'password': 'pbkdf2_sha256$260000$SwBCp27BlzPOFSmkOqS5XW$kk6drBTtQf9qELIJzufIKvUZ2U2MTwRHGYLtkLKb6ms=', 'last_login': None, 'is_superuser': False, 'username': 'guest', 'first_name': 'guest', 'last_name': 'guest', 'email': 'guest@example.com', 'is_staff': False, 'is_active': True, 'date_joined': datetime.datetime(2023, 9, 25, 10, 31, 51, 2077, tzinfo=<UTC>)}
+2023-09-25 17:31:51 | insert | Room | {'id': 1, 'name': 'A001'}
+2023-09-25 17:31:51 | insert | Room | {'id': 2, 'name': 'A002'}
+2023-09-25 17:31:51 | insert | Room | {'id': 3, 'name': 'A003'}
+2023-09-25 17:31:51 | insert | Room | {'id': 4, 'name': 'A004'}
+2023-09-25 17:31:51 | insert | Room | {'id': 5, 'name': 'A005'}
+2023-09-25 17:31:51 | insert | Room | {'id': 6, 'name': 'A006'}
+2023-09-25 17:31:51 | insert | Room | {'id': 7, 'name': 'A007'}
+2023-09-25 17:31:51 | insert | Room | {'id': 8, 'name': 'A008'}
+2023-09-25 17:31:51 | insert | Room | {'id': 9, 'name': 'A009'}
+2023-09-25 17:31:51 | insert | Room | {'id': 10, 'name': 'A010'}
+2023-09-25 17:31:51 | insert | Room | {'id': 11, 'name': 'A011'}
+2023-09-25 17:31:51 | insert | Room | {'id': 12, 'name': 'A012'}
+2023-09-25 17:31:51 | insert | Room | {'id': 13, 'name': 'A013'}
+2023-09-25 17:31:51 | insert | Room | {'id': 14, 'name': 'A014'}
+2023-09-25 17:31:51 | insert | Room | {'id': 15, 'name': 'A015'}
+2023-09-25 17:31:51 | insert | Room | {'id': 16, 'name': 'A016'}
+2023-09-25 17:31:51 | insert | Room | {'id': 17, 'name': 'A017'}
+2023-09-25 17:31:51 | insert | Room | {'id': 18, 'name': 'A018'}
+2023-09-25 17:31:51 | insert | Room | {'id': 19, 'name': 'A019'}
+2023-09-25 17:31:51 | insert | Room | {'id': 20, 'name': 'A020'}
